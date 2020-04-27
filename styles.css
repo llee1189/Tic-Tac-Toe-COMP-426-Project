@@ -1,0 +1,304 @@
+.gridbox {
+    display: grid;
+    grid-template-rows: 15vh 75vh 10vh;
+    background-image: url("https://images.unsplash.com/photo-1488282687151-c5e6582e7cf1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.gridbox1 {
+    display: grid;
+    grid-template-rows: 15vh 75vh 10vh;
+    background-image: url("https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+
+
+.gridder {
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+}
+
+.gridder1 {
+    display: grid;
+    grid-template-columns: 30% 35% 30%;
+}
+
+.main {
+    background-color: rgb(47, 79, 79);
+    grid-row: 1 / 2;
+}
+
+p {
+    text-align: center;
+    color: white;
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+.main1 {
+    font-size: 20px;
+    margin: none;
+}
+
+.content {
+
+    font-size: 20px;
+
+    grid-row: 2 / 3;
+}
+
+.content1 {
+    text-align: center;
+
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(47, 79, 79);
+    grid-column: 1 / 2;
+    color: white;
+}
+
+.content2 {
+    text-align: center;
+    grid-column: 2 / 3;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(47, 79, 79);
+    color: white;
+}
+
+.content3 {
+    text-align: center;
+
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(47, 79, 79);
+    grid-column: 3 / 4;
+    color: white;
+}
+
+.footer {
+    background-color: rgb(47, 79, 79);
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    padding: auto;
+    grid-row: 3 / 4;
+}
+
+.box {
+    cursor: pointer;
+    font-size: 20px;
+    border-top: solid black;
+    border-radius: 1px;
+    width: 100px;
+    color: white;
+    text-align: center;
+}
+
+
+
+
+.container ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+
+.main ul li {
+    display: inline-block;
+    font-family: 'Raleway';
+    padding: 4px;
+    margin-right: 5px;
+}
+
+
+
+
+.container ul li:hover {
+    border-width: thick;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 780px) {
+    .column1 {
+
+        float: left;
+    }
+
+    .column2 {
+        float: left;
+
+    }
+}
+
+.wrapper {
+    width: 100%;
+}
+
+#nav_menu {
+    display: flex;
+    flex-direction: row;
+
+
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1em;
+    z-index: 1000;
+}
+
+
+
+#nav_menu ul {
+    width: 100%;
+
+}
+
+#nav_menu ul li {
+    border-top: solid black;
+
+    width: 10%;
+    font-size: 24px;
+}
+
+#nav_menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+}
+
+#nav_menu ul li:hover,
+#nav_menu ul li:focus {
+    border-width: thick;
+}
+
+.slicknav_menu {
+    display: none;
+}
+
+@media only screen and (max-width: 767px) {
+
+    #nav_menu {
+        display: none;
+    }
+
+    .slicknav_menu {
+        display: block;
+    }
+
+    .slicknav_menu .slicknav_menutxt {
+
+        font-family: "Times New Roman", Times, serif;
+    }
+
+    .slicknav_nav .slicknav_row,
+    .slicknav_nav a {
+        display: block;
+        max-width: 100px;
+    }
+
+    .slicknav_nav ul {
+        margin: 0 0 0 20px;
+        text-align: center;
+    }
+}
+
+
+.slicknav_btn {
+    position: relative;
+    display: block;
+    float: right;
+    padding: 0.438em 0.625em 0.438em 0.625em;
+    cursor: pointer;
+}
+
+.slicknav_btn .slicknav_icon-bar+.slicknav_icon-bar {
+    margin-top: 0.188em;
+}
+
+.slicknav_menu .slicknav_menutxt {
+    line-height: 1.188em;
+    float: left;
+}
+
+.slicknav_menu .slicknav_icon {
+    height: 0.875em;
+}
+
+.slicknav_menu .slicknav_icon:before {
+    background: transparent;
+}
+
+.slicknav_menu {
+    font-size: 16px;
+    box-sizing: border-box;
+    background: rgb(47, 79, 79);
+    padding: 5px;
+}
+
+
+.slicknav_menu .slicknav_menutxt {
+    color: white;
+    font-weight: bold;
+}
+
+.slicknav_menu .slicknav_icon-bar {
+    background-color: white;
+}
+
+.slicknav_btn {
+    background-color: #8b8b79;
+}
+
+.slicknav_nav {
+    margin: 0;
+    padding: 0;
+    font-size: .9em;
+    list-style: none;
+    overflow: hidden;
+}
+
+.slicknav_nav a {
+
+    text-decoration: none;
+    color: white;
+}
+
+.slicknav_nav a:hover {
+
+    background: white;
+    padding: 2%;
+    margin-right:
+}
+
+img {
+    height: 14vh;
+    margin: auto;
+    margin-left: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    flex-direction: row;
+}
