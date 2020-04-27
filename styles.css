@@ -257,12 +257,12 @@ p {
 
 
 .slicknav_menu .slicknav_menutxt {
-    color: #ffffe6;
+    color: white;
     font-weight: bold;
 }
 
 .slicknav_menu .slicknav_icon-bar {
-    background-color: #ffffe6;
+    background-color: white;
 }
 
 .slicknav_btn {
@@ -280,13 +280,12 @@ p {
 .slicknav_nav a {
 
     text-decoration: none;
-    color: #ffffe6;
+    color: white;
 }
 
 .slicknav_nav a:hover {
 
-    background: #ffffe6;
-    color: #000058;
+    background: white;
     padding: 2%;
     margin-right:
 }
