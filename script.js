@@ -144,7 +144,7 @@ loginPage();
     let cat = document.createElement("div");
     cat.textContent = "It's a draw!";
     cat.setAttribute('class', 'win');
-    $("body").append(cat);
+    $(".temp").append(cat);
   }
 
   function createRestartButton() {
