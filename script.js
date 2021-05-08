@@ -175,7 +175,6 @@ $(function() {
     birbButton.addEventListener('click', function() {
       $("body").empty();
       var picture = 'https://farm4.static.flickr.com/3347/3664363773_cd58524c26.jpg';
-      console.log(picture);
       let image = document.createElement("img")
       image.setAttribute("src", picture);
       $("body").append(image);
