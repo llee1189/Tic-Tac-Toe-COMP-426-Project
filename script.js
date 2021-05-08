@@ -174,17 +174,12 @@ $(function() {
 
     birbButton.addEventListener('click', function() {
       $("body").empty();
-      fetch('https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=7577b95afb8ae35a9fbaa3df7635602d&tags=nyc&per_page=10&page=1&format=json&nojsoncallback=1')
-      .then(function(ret){
-        return ret.json();
-      })
-      .then(function(){
-          var picture = 'https://farm4.static.flickr.com/3347/3664363773_cd58524c26.jpg';
-          let image = document.createElement("img")
-          image.setAttribute("src", picture);
-          $("body").append(image);
-          playButton();
-      })
+      var picture = 'https://farm4.static.flickr.com/3347/3664363773_cd58524c26.jpg';
+      console.log(picture);
+      let image = document.createElement("img")
+      image.setAttribute("src", picture);
+      $("body").append(image);
+      playButton();
       });
 
     temp.append(birbButton);
